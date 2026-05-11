@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: resttemplateserver
-          image: 210.90.24.172:8080/restproject/covanet/resttemplateserver:7214b529586a0edd01f452999e30bce9e81dbb7e
+          image: 210.90.24.172:8080/restproject/covanet/resttemplateserver:2f07fda6b61bd8568f440197ec7b6bb7ee4b60e8
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
